@@ -13,7 +13,7 @@ function Homepage() {
                                                     flexDirection: "row",
                                                     flexWrap: "wrap",
                                                             gap: "20px",
-                                                                    justifyContent: "flex-start",
+                                                                    justifyContent: "space-between",
                                                                           }}
                                                                               >
                                                                                     {dummyData.map((post) => (

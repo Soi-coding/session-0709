@@ -4,7 +4,7 @@ import heartIcon from "../assets/images/heart.png";
 
 const Card = styled.div`
   width: 100%;
-    max-width: 300px;
+    max-width: 350px;
       min-width: 250px;
           border-radius: 8px;
             overflow: hidden;

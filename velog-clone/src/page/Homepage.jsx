@@ -9,10 +9,11 @@ function Homepage() {
                     maxWidth: "1200px",
                             margin: "0 auto",
                                     padding: "20px",
-                                            display: "grid",
-                                                    gridTemplateColumns: "repeat(auto-fill, minmax(250px, 1fr))",
+                                            display: "flex",
+                                                    flexDirection: "row",
+                                                    flexWrap: "wrap",
                                                             gap: "20px",
-                                                                    justifyContent: "center",
+                                                                    justifyContent: "flex-start",
                                                                           }}
                                                                               >
                                                                                     {dummyData.map((post) => (

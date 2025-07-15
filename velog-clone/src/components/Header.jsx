@@ -18,7 +18,7 @@ function Header() {
                                                                                 justifyContent: "space-between",
                                                                                           alignItems: "center",
                                                                                                     padding: "16px 0", // 좌우 padding은 바깥 div에
-                                                                                                              borderBottom: "1px solid #ddd",
+                                                                                                              
                                                                                                                       }}
                                                                                                                             >
                                                                                                                                     <img src={velogLogo} alt="velog logo" style={{ height: "24px" }} />
